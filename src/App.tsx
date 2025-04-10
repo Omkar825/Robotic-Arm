@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, Notebook as Robot, ChevronDown, Github, Linkedin, Mail, X } from 'lucide-react';
 import { ContactForm } from './components/ContactForm';
-import { TeamMember } from './components/TeamSection';
+import { TeamSection } from './components/TeamSection';
 import { Section } from './components/Section';
 import { FlowChart } from './components/FlowChart';
 import { Navigation } from './components/Navigation';
@@ -193,7 +193,7 @@ function App() {
       <Section title="Meet the Team" id="team" className="bg-blue-50">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
-            <TeamMember key={index} {...member} />
+            <TeamSection key={index} {...member} />
           ))}
         </div>
       </Section>
