@@ -12,7 +12,7 @@ function App() {
   const teamMembers = [
     {
       name: "Omkara Anjaneya Kumar",
-      role: "Founder",
+      role: "Software Developer & Designing",
       image: "images/Omkar.png",
       github: "https://github.com/Omkar825",
       linkedin: "https://www.linkedin.com/in/omkar-anjaneya-kumar/",
@@ -20,7 +20,7 @@ function App() {
     },
     {
       name: "Pavan Siva Kumar",
-      role: "Founder",
+      role: "Hardware Developer & Designing",
       image: "images/Pavan.png",
       github: "https://github.com/Pavan8114",
       linkedin: "https://www.linkedin.com/in/somana-pavan-siva-kumar/",
