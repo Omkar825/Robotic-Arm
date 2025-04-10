@@ -175,10 +175,12 @@ function App() {
       </Section>
 
       <Section title="Meet the Team" id="team" className="bg-blue-50">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {teamMembers.map((member, index) => (
-            <TeamMember key={index} {...member} />
-          ))}
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            {teamMembers.map((member, index) => (
+              <TeamMember key={index} {...member} />
+            ))}
+          </div>
         </div>
       </Section>
 
