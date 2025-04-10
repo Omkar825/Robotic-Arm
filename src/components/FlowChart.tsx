@@ -14,7 +14,7 @@ export const FlowChart: React.FC = () => {
             alt="Robotic Arm Flow Chart"
             className="w-full mx-auto rounded-lg group-hover:scale-[1.02]"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity rounded-lg" />
+          <div className="absolute inset-0 opacity-0 group-hover rounded-lg" />
         </div>
       </div>
     </section>
