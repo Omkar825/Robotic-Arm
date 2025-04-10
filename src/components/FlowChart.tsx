@@ -10,16 +10,12 @@ export const FlowChart: React.FC = () => {
         
         <div className="relative group cursor-zoom-in">
           <img
-            src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb"
+            src="/flow chart.jpeg"
             alt="Robotic Arm Flow Chart"
             className="w-full max-w-4xl mx-auto rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-[1.02]"
           />
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity rounded-lg" />
         </div>
-        
-        <p className="text-center mt-6 text-gray-600">
-          Click to view full diagram
-        </p>
       </div>
     </section>
   );
