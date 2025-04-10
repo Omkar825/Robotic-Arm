@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, Notebook as Robot, ChevronDown, Github, Linkedin, Mail, X } from 'lucide-react';
 import { ContactForm } from './components/ContactForm';
-import { TeamSection } from './components/TeamSection';
+import { TeamMember } from './components/TeamMember';
 import { Section } from './components/Section';
 import { FlowChart } from './components/FlowChart';
 import { Navigation } from './components/Navigation';
@@ -11,37 +11,21 @@ function App() {
 
   const teamMembers = [
     {
-      name: 'Pavan Siva Kumar Somana',
-      role: 'Team Leader – Embedded Systems & Hardware',
-      email: 'pavansivakumar27@gmail.com',
-      github: '#',
-      linkedin: '#',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d'
+      name: "Omkara Anjaneya Kumar",
+      role: "Founder",
+      image: "images/Omkar.png",
+      github: "https://github.com/Omkar825",
+      linkedin: "https://www.linkedin.com/in/omkar-anjaneya-kumar/",
+      email: "mailto:omkarratnala2565@gmail.com",
     },
     {
-      name: 'John Smith',
-      role: 'Software Developer',
-      email: 'john@example.com',
-      github: '#',
-      linkedin: '#',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e'
+      name: "Pavan Siva Kumar",
+      role: "Founder",
+      image: "images/Pavan.png",
+      github: "https://github.com/Pavan8114",
+      linkedin: "https://www.linkedin.com/in/somana-pavan-siva-kumar/",
+      email: "mailto:pavansivakumar27@gmail.com",
     },
-    {
-      name: 'Emily Johnson',
-      role: 'ML Engineer',
-      email: 'emily@example.com',
-      github: '#',
-      linkedin: '#',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330'
-    },
-    {
-      name: 'Michael Chen',
-      role: 'Research & Documentation',
-      email: 'michael@example.com',
-      github: '#',
-      linkedin: '#',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d'
-    }
   ];
 
   const scrollToContent = () => {
@@ -193,7 +177,7 @@ function App() {
       <Section title="Meet the Team" id="team" className="bg-blue-50">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
-            <TeamSection key={index} {...member} />
+            <TeamMember key={index} {...member} />
           ))}
         </div>
       </Section>
