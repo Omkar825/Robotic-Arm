@@ -13,7 +13,7 @@ function App() {
     {
       name: "Omkara Anjaneya Kumar",
       role: "Software Developer & Designing",
-      image: "images/Omkar.png",
+      image: "/Omkar.png",
       github: "https://github.com/Omkar825",
       linkedin: "https://www.linkedin.com/in/omkar-anjaneya-kumar/",
       email: "mailto:omkarratnala2565@gmail.com",
@@ -21,7 +21,7 @@ function App() {
     {
       name: "Pavan Siva Kumar",
       role: "Hardware Developer & Designing",
-      image: "images/Pavan.png",
+      image: "/Pavan.png",
       github: "https://github.com/Pavan8114",
       linkedin: "https://www.linkedin.com/in/somana-pavan-siva-kumar/",
       email: "mailto:pavansivakumar27@gmail.com",
