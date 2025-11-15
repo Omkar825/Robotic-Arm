@@ -26,6 +26,14 @@ function App() {
       linkedin: "https://www.linkedin.com/in/somana-pavan-siva-kumar/",
       email: "mailto:pavansivakumar27@gmail.com",
     },
+    {
+      name: "Yuva Rami Reddy",
+      role: "Hardware Developer & Designing",
+      image: "/Pavan.png",
+      github: "https://github.com/Yuva9848",
+      linkedin: "https://www.linkedin.com/in/yuva-rami-reddy/",
+      email: "mailto:gorakayuvaramireddy@gmail.com",
+    },
   ];
 
   const scrollToContent = () => {
